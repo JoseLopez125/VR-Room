@@ -17,7 +17,5 @@ public class Clock : MonoBehaviour
             Quaternion.Euler(minutesToDegrees * (float)time.TotalMinutes + 90f, 0f, -90f);
         secondsPivot.localRotation =
             Quaternion.Euler(secondsToDegrees * (float)time.TotalSeconds + 90f, 0f, -90f);
-
-        Debug.Log(time);
     }
 }
